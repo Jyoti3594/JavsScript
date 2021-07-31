@@ -1,4 +1,4 @@
-//statments - set of instructions .
+//statements - set of instructions .
 //comment - shorcut command +/
 
 //single line comment
