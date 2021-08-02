@@ -8,19 +8,30 @@
 // let VariableName =  "---";
 //console.log(variableName)
 
+/*Variable can contain :
+Digits , Letters , underscore ,$ .
+
+but variable name cannot start with Numbers .
+
+Case Sensitive: upper , Lower .
+
+Use CamelCase or Underscore .
+
+*/
+
 let myName="Jyoti Rani";
 console.log(myName);
 //Just assign variable name
-let myAddress ,zipCode, city;
+let my_Address ,zipCode$, city;
 //assign value later ,  
-myAddress = "10 MainStreet";
-zipCode = "XYZ-ZYX";
+my_Address = "10 MainStreet";
+zipCode$ = "XYZ-ZYX";
 city = "Vancouver" ;
 
 //modify existing
 myName = "Neenu" ; 
 
-console.log(myAddress , zipCode , city);
+console.log(my_Address , zipCode$ , city);
 console.log(myName);
 
 
