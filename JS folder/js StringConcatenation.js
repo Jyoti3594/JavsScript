@@ -13,4 +13,4 @@ console.log(url);
 let initialN = 'Jyoti';
 let lastName = 'Rani';
 const fullName =  initialN + " " + lastName;
-console.log('My full name is' + ' ' + fullName);
+console.log('My full name is' + ' ' + fullName); 
