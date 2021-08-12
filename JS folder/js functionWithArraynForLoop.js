@@ -18,8 +18,9 @@ function calculateTotal(Arra){
     return total;
 }
 const gasTotal = calculateTotal(gas);
-console.log(gasTotal);
+
 const foodTotal = calculateTotal(food);
-console.log(foodTotal);
+
 const randomTotal = calculateTotal([20,30,40]);
-console.log(randomTotal);
+
+console.log({gasTotal,foodTotal, randomTotal});
