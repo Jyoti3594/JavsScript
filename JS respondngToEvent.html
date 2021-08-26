@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Responding to Events</title>
+    <style>
+    .btn{
+        background: red;
+        color: white;
+        border: none;
+        font-size: 1.2rem;
+    }
+    .blue{
+        background:blue;
+        color: white;
+        text-transform: capitalize;
+        font-size: 10px;
+    }
+    .red{
+        background: red;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    </style>
+</head>
+<body>
+    <h2>events in JS </h2>
+    
+    <button class="btn">Click me</button>
+    <!--JS-->
+    <p onclick="this.classList.add('red')">the old style</p>
+    <script src="/JS folder/js RespondingToEvent.js"></script>
+
+    
+</body>
+</html>
